@@ -13,6 +13,21 @@
     }
   },
   "plugins": [
-    "-sharing"
-  ]
+    "-sharing",
+    "anchor-navigation-ex",
+    "tbfed-pagefooter",
+    "expandable-chapters",
+    "chapter-fold"
+  ],
+  "pluginsConfig": {
+    "anchor-navigation-ex": {
+      "showLevel": false,
+      "showGoTop": true
+    },
+    "tbfed-pagefooter": {
+      "copyright": "",
+      "modify_label": "该文件最后修改时间：",
+      "modify_format": "YYYY-MM-DD HH:mm:ss"
+    }
+  }
 }
