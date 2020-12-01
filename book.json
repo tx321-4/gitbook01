@@ -1,0 +1,18 @@
+{
+  "title": "大师的电子书",
+  "author": "大师",
+  "description": "第一本电子书",
+  "language": "zh-hans",
+  "gitbook": "3.2.3",
+  "styles": {
+    "website": "./styles/website.css"
+  },
+  "links": {
+    "sidebar": {
+      "大师的博客": "https://note.liumianti.cn/"
+    }
+  },
+  "plugins": [
+    "-sharing"
+  ]
+}
