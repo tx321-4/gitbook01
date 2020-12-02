@@ -1,1 +1,57 @@
 # Bootstrap 3 基础教程
+
+
+.page-header 会显示一个 `下划线`
+
+## 网格系统
+  * col-xs-*    device-width < 768px
+  * col-sm-*    device-width >= 768px
+  * col-md-*    device-width >= 992px
+  * col-lg-*    device-width >= 1200px  
+
+ ```html
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8"></div>
+        <div class="col-md-4"></div>
+      </div>
+    </div>
+ ```
+
+>[参考链接：https://tx321-4.github.io/study-bootstrap/基础教程/01.html](https://tx321-4.github.io/study-bootstrap/基础教程/01.html)
+
+* 列的排序 -- 用来排序列的先后顺序
+  * col-md-push-* 与 col-md-pull-* 
+
+>[参考链接：https://tx321-4.github.io/study-bootstrap/基础教程/02.html](https://tx321-4.github.io/study-bootstrap/基础教程/02.html)
+
+* 嵌套布局
+>[参考链接：https://tx321-4.github.io/study-bootstrap/基础教程/03.html](https://tx321-4.github.io/study-bootstrap/基础教程/03.html)
+
+* 偏移列
+  * col-md-offset-*
+>[参考链接：https://tx321-4.github.io/study-bootstrap/基础教程/04.html](https://tx321-4.github.io/study-bootstrap/基础教程/04.html)
+
+* 显示与隐藏的响应式工具类
+  * visible-* 
+  * hidden-*
+>[参考链接：https://tx321-4.github.io/study-bootstrap/基础教程/05.html](https://tx321-4.github.io/study-bootstrap/基础教程/05.html)
+
+# 
+
+## 导航栏
+* 导航栏 
+  * 夜间 navbar-inverse 
+  * 默认 navbar-default
+* 固定导航栏  
+  * navbar-fixed-top 
+  * navbar-fixed-bottom
+  * navbar-static-top 随页面的滚动而滚动
+
+>[参考链接：https://tx321-4.github.io/study-bootstrap/基础教程/06.html](https://tx321-4.github.io/study-bootstrap/基础教程/06.html)
+
+* 响应式导航栏 
+  * button data-target="#xxxx" data-toggle="collapse"
+  * nav id="xxxx"
+
+>[参考链接：https://tx321-4.github.io/study-bootstrap/基础教程/07.html](https://tx321-4.github.io/study-bootstrap/基础教程/07.html)
