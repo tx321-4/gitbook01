@@ -55,3 +55,32 @@
   * nav id="xxxx"
 
 >[参考链接：https://tx321-4.github.io/study-bootstrap/基础教程/07.html](https://tx321-4.github.io/study-bootstrap/基础教程/07.html)
+
+#
+
+## 对话框
+* 基本
+  * modal-dialog
+  * 布局 modal-header、modal-body、modal-footer
+  * 大小 modal-sm、modal-lg
+>[参考链接：https://tx321-4.github.io/study-bootstrap/基础教程/08.html](https://tx321-4.github.io/study-bootstrap/基础教程/08.html)
+* 打开 
+  * button data-toggle="modal" data-target="#login-modal"
+  * div .modal #login-modal
+* 关闭
+  * button data-dismiss="modal"
+* 打开过渡动画
+  * div .modal.fade
+>[参考链接：https://tx321-4.github.io/study-bootstrap/基础教程/09.html](https://tx321-4.github.io/study-bootstrap/基础教程/09.html)
+* 暗色背景
+  * data-backdrop = "false"
+  * javascript: $(function(){$('#login-modal').modal(({show: false, backdrop: false}))})
+* 调用同源页面
+  * remote
+* 方法
+  * javascript: $("#login-modal").modal("show")
+  * javascript: $("#login-modal").modal("hide")
+  * javascript: $("#login-modal").modal("toggle")  
+* 事件
+  * show、shown、hide、hidden、loaded
+  * javascript: $("#login-modal").on("show.bs.modal", function(){})  
