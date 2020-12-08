@@ -84,3 +84,17 @@
 * 事件
   * show、shown、hide、hidden、loaded
   * javascript: $("#login-modal").on("show.bs.modal", function(){})  
+
+#
+
+## 幻灯片 carousel     
+  * 基础 data-ride="carousel"
+  * 左滑动 slide
+  * 上一页，下一页 
+    * a href="#slideshow" data-slide="prev" class="left carousel-control"
+    * a href="#slideshow" data-slide="next" class="right carousel-control"
+  * 圆点
+    * li data-target="#slideshow" data-slide-to="0"
+
+>[参考链接：https://tx321-4.github.io/study-bootstrap/基础教程/10.html](https://tx321-4.github.io/study-bootstrap/基础教程/10.html)
+  
